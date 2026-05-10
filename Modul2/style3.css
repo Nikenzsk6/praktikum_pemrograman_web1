@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #a6cff8;
+    margin: 20px;
+    padding: 20px;
+}
+
+.title{
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    align-items: start;
+}
+.card{
+    background: #67bbff;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 10px 25px #0000007e;
+}
+
+/* untuk Link Button*/
+.card a{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #4a90e2;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}

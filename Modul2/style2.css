@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #a6cff8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background: #67bbff;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 25px 30px #0000007e;
+}
+
+.profile-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.title{
+    color: #ffffff;
+    margin-top: -10px;
+}
+
+.about{
+    font-size: 14px;
+    margin: 15px 0;
+    text-align: justify;
+}
+
+.skills span{
+    display: inline-block;
+    background: #e3eaf2;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
